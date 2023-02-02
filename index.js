@@ -18,7 +18,7 @@ function login(){
    firebase.auth().signInWithEmailAndPassword(form.email().value,form.password().value).then(response =>{
 
 console.log('sucess',response)
-window.location.href = 'pages/home/home.html'
+window.location.href = 'pages/home/Dev.finances/index.html'
 
    }).catch(erro =>{
 console.log('erro',erro)
